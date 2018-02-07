@@ -1,5 +1,5 @@
 # SAP Notebook Demo
-https://mybinder.org/v2/gh/ebenmichael/sap-demo/master
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ebenmichael/sap-demo/master)
 
 
 In this minimal demo, we look at a PDF document of an SAP for [A randomised trial to increase the uptake of smoking cessation services using
