@@ -12048,7 +12048,7 @@ data <span class="o">&lt;-</span> data <span class="o">%&gt;%</span> mutate<span
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">## fit multivariate logistic regression for covariate adjustment</span>
-fit1 <span class="o">&lt;-</span> glm<span class="p">(</span>enter <span class="o">~</span> treated <span class="o">+</span>gender <span class="o">+</span> age <span class="o">+</span> depscore <span class="o">+</span> intquit <span class="o">+</span> 
+fit1 <span class="o">&lt;-</span> glm<span class="p">(</span>enter <span class="o">~</span> treated <span class="o">+</span>gender <span class="o">+</span> age <span class="o">+</span> intquit <span class="o">+</span> 
            determquit <span class="o">+</span> livesmoke <span class="o">+</span> imd <span class="o">+</span> prev<span class="p">,</span>
           family <span class="o">=</span> binomial<span class="p">,</span>
           data<span class="p">)</span>
