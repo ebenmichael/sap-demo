@@ -1,3 +1,9 @@
 ## Emacs extra files
 *~
 *#*
+
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+data/*.txt
